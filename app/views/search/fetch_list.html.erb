@@ -1,0 +1,7 @@
+<h1>Results fetched</h1>
+<% @results.each do |k, v|%>
+	<img src="<%=v[:image]%>" height='50' width='50' />
+	<span><b><%=v[:name]%></b></span>
+	<span><i><%=v[:price]%></i></span>
+	<hr/>
+<%end%>

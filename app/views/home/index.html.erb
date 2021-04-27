@@ -1,0 +1,5 @@
+<h1>Welcome to Central Search</h1>
+<%= form_tag fetch_list_search_index_path, method: :get do %>
+	<%= text_field_tag :item%>
+	<%= submit_tag :search%>
+<%end%>
